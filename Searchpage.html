@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seachpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+<style>
+body{
+    padding: 0 100px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+
+.section1 .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .menu li {
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.section1 .menu .menuleft {
+    display: flex;
+    align-items: center;
+}
+
+.section1 .menu .menuright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.section1 .menu img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.section2 {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    padding: 20px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.section2 * {
+    margin: 20px;
+}
+
+.section2 img {
+    float: right;
+    margin-left: 20px;
+}
+
+.section2_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchforcamp {
+    display: inline-block;
+}
+
+.search-container {
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.search-container i {
+    margin-right: 5px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 20px;
+}
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 500px;
+}
+.gallery {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
+}
+
+.gallery img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.section4 {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    height: 60px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position:absolute;
+    right: 639px;
+    top: 1700px;
+    cursor: pointer;
+}
+
+.section4 i {
+    margin-left: 60px;
+}
+</style>
+</head>
+<body>
+    <div class="section1">
+        <ul class="menu">
+            <div class="menuleft">
+                <li style="cursor:pointer;"><img src="https://lh3.googleusercontent.com/RVqltL7i5vhKSOBNfb8J7DvqNElkDxBVdROi_YgDNZScpKj7aC6-yRfO7Rd-HLHEjJzH=s170" ></a></li>
+                <li style="cursor:pointer;">Home</li>
+                <li style="cursor:pointer;">New campground</li>
+            </div>
+            <div class="menuright">    
+                <li style="cursor:pointer;">Login</li>
+                <li style="display: flex; justify-content: center;border-radius: 10px; align-items: center; width: 200px; height: 60px; background-color: black; color: white;cursor:pointer;">Creat an account</li>
+            </div>
+        </ul>
+    </div>
+    <div class="section2">
+        <img src="https://cms.evangelicalfocus.com/upload/imagenes/60af6a1b905db_camp630.jpg"alt="picture">
+        <div>
+            <h1 style="font-size: 45px;">Welcome to AeroCamp!</h1>
+            <p style="font-weight: normal; font-size: 20px;">View our hand-picked campgrounds from all over the world, or add your own</p>
+        </div>
+        <div class="section2_1">
+            <div class="searchforcamp">
+                <div class="search-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search for camps">
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center;border-radius: 10px; align-items: center; width: 150px; height: 60px; background-color: black; color: white; cursor: pointer;">
+                Search
+            </div>
+        </div>
+    </div>
+    <div class="section3">
+        <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="https://manofmany.com/wp-content/uploads/2020/11/best-camping-near-melbourne.jpg" alt="Latik Riverside" width="383" height="319">
+            </a>
+            <div class="p-left" style="float: left;">
+                <p>Latik Riverside</p>
+                <p style="font-weight: normal;">Rome,Italy</p>
+            </div>
+            <div class="p-right" style="float: right;">
+                <p style="float: right; font-weight: normal;">night</p>
+                <p style="float: right; padding-right: 5px;">$204</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="https://manofmany.com/wp-content/uploads/2020/11/best-camping-near-melbourne.jpg" alt="Latik Riverside" width="383" height="319">
+            </a>
+            <div class="p-left" style="float: left;">
+                <p>Latik Riverside</p>
+                <p style="font-weight: normal;">Rome,Italy</p>
+            </div>
+            <div class="p-right" style="float: right;">
+                <p style="float: right; font-weight: normal;">night</p>
+                <p style="float: right; padding-right: 5px;">$204</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="https://manofmany.com/wp-content/uploads/2020/11/best-camping-near-melbourne.jpg" alt="Latik Riverside" width="383" height="319">
+            </a>
+            <div class="p-left" style="float: left;">
+                <p>Latik Riverside</p>
+                <p style="font-weight: normal;">Rome,Italy</p>
+            </div>
+            <div class="p-right" style="float: right;">
+                <p style="float: right; font-weight: normal;">night</p>
+                <p style="float: right; padding-right: 5px;">$204</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="https://manofmany.com/wp-content/uploads/2020/11/best-camping-near-melbourne.jpg" alt="Latik Riverside" width="383" height="319">
+            </a>
+            <div class="p-left" style="float: left;">
+                <p>Latik Riverside</p>
+                <p style="font-weight: normal;">Rome,Italy</p>
+            </div>
+            <div class="p-right" style="float: right;">
+                <p style="float: right; font-weight: normal;">night</p>
+                <p style="float: right; padding-right: 5px;">$204</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="https://manofmany.com/wp-content/uploads/2020/11/best-camping-near-melbourne.jpg" alt="Latik Riverside" width="383" height="319">
+            </a>
+            <div class="p-left" style="float: left;">
+                <p>Latik Riverside</p>
+                <p style="font-weight: normal;">Rome,Italy</p>
+            </div>
+            <div class="p-right" style="float: right;">
+                <p style="float: right; font-weight: normal;">night</p>
+                <p style="float: right; padding-right: 5px;">$204</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="https://manofmany.com/wp-content/uploads/2020/11/best-camping-near-melbourne.jpg" alt="Latik Riverside" width="383" height="319">
+            </a>
+            <div class="p-left" style="float: left;">
+                <p>Latik Riverside</p>
+                <p style="font-weight: normal;">Rome,Italy</p>
+            </div>
+            <div class="p-right" style="float: right;">
+                <p style="float: right; font-weight: normal;">night</p>
+                <p style="float: right; padding-right: 5px;">$204</p>
+            </div>
+        </div>
+    </div>
+    <div class="section4">View more<i class="fas fa-arrow-down"></i>
+    </div>
+</body>
+</html>
