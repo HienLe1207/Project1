@@ -1,0 +1,214 @@
+
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width:1211px;
+    height:85px;
+    top:500px;
+    left:126px;
+    margin: auto;
+    padding:24px, 54px, 22px, 0px;
+    gap:567px;
+    max-width: 1500px;
+
+}
+.nav_left{
+    display:flex;
+    align-items: center;
+    width: 214px;
+    height: 39px;
+    gap:28px;
+  }
+ .nav_right{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    width:414px;
+    height:35px;
+    gap:54px;
+    
+}
+.nav_right-left{
+    display:flex;
+    gap:8px; 
+    align-items: center;  
+}
+.nav_right-right{
+    display: flex;
+    gap:8px;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    background-color: black; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1172px;
+    height: 440px;
+    top:188px;
+    left:145px;
+    padding: 5px 50px 5px 50px;
+    row-gap: 20px;
+}
+.banner_left{
+    display: flex;
+    flex-direction: column;
+    width: 812px;
+    height: 372px;
+}
+.banner_left-item1 b {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 54px;
+    color: #FFFFFF;
+    width: 782px;
+    height: 132px;
+    top: 34px;
+    left: 35px;
+}
+.banner_left-item2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 476px;
+    height: 78px;
+    gap:30px;
+}
+.banner_left-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EB6440;
+    border-radius: 8px;
+    width:204px;
+    height: 50px;
+    gap:16px;
+}
+
+.banner_left-button b{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color:#FFFFFF ;
+
+}
+.banner_left-button img{
+    width: 18px;
+    border: 2px;
+}
+.banner_right img{
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 324px;
+    padding: 24px;
+    gap:10px;
+}
+
+.ChromeDino {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+    font-size: 50px; 
+    padding: 55px 0px 55px 0px;
+    
+}
+
+.product{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: auto;
+    flex-direction: column;
+   justify-content: center;
+    gap:10px;
+    width: 1089px;
+    height: 941px;    
+    margin: auto;
+    
+   }
+.product_item{
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:10px; 
+   position: relative;
+ 
+ }
+.product_item-heart{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50px;
+    left: 280px;
+    padding: 5px;
+    border-radius: 48px;
+}
+.product_item-1 {
+    background-color:#EBEAEA;
+    width: 305px;
+    height: 320px;
+    border-radius: 5px;  
+}
+.product_item-1 img{
+    align-items: center;
+    text-align: center; 
+    padding: 46px 27px 46px 27px;  
+}
+.product_item-2 b{
+    color:  #5C5C5C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 223px;
+    height: 20px;
+}
+.product_item-3{
+    display: flex;
+    flex-direction: row;
+    width: 305px;
+    justify-content: space-between;
+    align-items: center;  
+}
+.product_item-3-left b{
+    color: #141414;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 71px;
+    height: 24px;
+    text-align: center;
+    align-items: center; 
+    font-weight: 700;  
+}
+.product_item-3-right{
+    width: 123px;
+    height:32px;
+    border-radius: 4px;
+    border: 2px solid #EB6440;
+    gap: 10px;
+    align-items: center;
+}
+.product_item-3-right p{
+    color: #EB6440;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    width: 75px;
+    height: 16px;
+    font-weight: bold;  
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 6px 0px 5px 0px;   
+        
+}
+
