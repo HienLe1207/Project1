@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Trang dành cho nhân viên</title>
+<link rel="stylesheet"
+ href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+ integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+ crossorigin="anonymous"> 
+ <link rel="stylesheet" href="../nv/nv.css">
+</head>
+<body>
+    <div class="header">
+        <h1 style="color:white;font-weight: bold;text-align: center;align-items: center;justify-content: center;padding: 20px ;">QUẢN LÝ SẢN PHẨM</h1>
+        <div class="nav_bar">
+            <ul>
+                <a href="../nv/nv_kh.html"target="_blank" ><i>Quản lý khách hàng</i></a>
+                <a href="../nv/nv_sp.html" target="_blank" ><i>Quản lý sản phẩm</i></a>
+                <a href="../nv/nv_hd.html" target="_blank" ><i>Quản lý hóa đơn</i></a>
+                <a href="../nv/nv_kho.html" target="_blank" ><i>Quản lý kho</i></a>
+                <button style="background-color: red;width: 100px;color:white;"><i>Đăng xuất</i></button>
+                
+            </ul>
+        </div>
+      </div>  
+ <div class="container my-2">
+ <h1>Danh sách sản phẩm</h1>
+ 
+ <a href = "../nv/add_sp.html" class="btn btn-primary btn-sm mb-3"> Thêm sản phẩm </a>
+ 
+  <table border ="1" class = "table " style="width: 1200px">
+     <tr>
+     <th>
+      <a></a>Tên sản phẩm</a>
+     </th>
+     <th>
+     <a>Mã sản phẩm</a>
+     </th>
+     <th>
+     <a>Mã nhà cung cấp</a>
+     </th>
+     <th>
+      <a>Số lượng</a>
+      </th>
+      <th>
+        <a>Giá/1sp</a>
+       </th>
+     <th> Tác vụ </th>
+    </tr>
+      <tbody>
+    <tr>
+        <td text="{tensp}"></td>
+        <td text="{mansp}"></td>
+        <td text="{mancc}"></td>
+        <td text="{sl}"></td>
+        <td text="{gia}"></td>
+     <td> <a class="btn btn-primary">Update</a>
+         <a class="btn btn-danger">Delete</a>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</body>
+</html>

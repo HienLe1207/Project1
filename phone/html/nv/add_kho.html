@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập thông tin kho chứa</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Nhập thông tin</h1>
+        <hr>
+        <form >
+            <input type="text"  placeholder="Mã sản phẩm" class="form-control mb-4 col-4"required>
+
+            <input type="text"  placeholder="Số lượng nhập" class="form-control mb-4 col-4"required>
+
+            <input type="text" placeholder="Số lượng xuất" class="form-control mb-4 col-4"required>
+            <input type="date"  placeholder="Ngày nhập" class="form-control mb-4 col-4"required>
+            <input type="date"  placeholder="Ngày xuất" class="form-control mb-4 col-4"required>
+            <button type="submit" class="btn btn-info col-2"> Save</button>
+        </form>
+        <hr>
+        <a href="../nv/nv_kho.html"> Quay lại</a>
+    </div>
+</body>
+
+</html>
